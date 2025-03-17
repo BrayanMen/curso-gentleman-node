@@ -1,0 +1,45 @@
+{
+  "name": "curso-gentleman-node",
+  "version": "1.0.0",
+  "description": "Curso intensivo",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "nodemon --watch src --ext ts --exec ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrayanMen/curso-gentleman-node.git"
+  },
+  "author": "Brayan Mendoza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrayanMen/curso-gentleman-node/issues"
+  },
+  "homepage": "https://github.com/BrayanMen/curso-gentleman-node#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.22.0",
+    "@types/bcrypt": "^5.0.2",
+    "@types/cors": "^2.8.17",
+    "@types/jsonwebtoken": "^9.0.9",
+    "@types/node": "^22.13.10",
+    "@typescript-eslint/eslint-plugin": "^8.26.1",
+    "@typescript-eslint/parser": "^8.26.1",
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-base-typescript": "^1.1.0",
+    "eslint-plugin-import": "^2.31.0",
+    "globals": "^16.0.0",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2",
+    "typescript-eslint": "^8.26.1"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "jsonwebtoken": "^9.0.2",
+    "valibot": "^1.0.0-rc.4"
+  }
+}
